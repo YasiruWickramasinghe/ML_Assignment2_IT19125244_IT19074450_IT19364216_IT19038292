@@ -14,3 +14,6 @@ In this project we tried  four modeling method Random Forest Classifier, Logisti
 ## Conclusions
 
 We tried different methodologies to predict the results regarding the prediction of H1N1 and Seasonal Flu Vaccines such as Random Forest Classifier, Logistic Regression, Decision Tree Classifier, Catboost classifier and we got a best score 0.8632 and rank 49 out of 2692 using Catboost classifier
+
+## preprocessing
+Data preprocessing is a data mining technique used to convert raw data into a usable and                efficient format. Cleansing, transformation, and feature engineering are all part of data preprocessing
