@@ -9,11 +9,15 @@
 4. Wickramasinghe A. Y. S. W - IT19038292
 
 ## Description
-In this project we tried  four modeling method Random Forest Classifier, Logistic Regression, Decision Tree Classifier, Catboost classifier , we used dataset from  drivendata  to  finding patterns and regularities using data mining technique to predict H1N1 and Seasonal Flu Vaccines. dataset is available under drivendata as Feature data.
+The goal of this project is to predict how likely individuals are to receive their H1N1 and seasonal flu vaccines. As such, it is necessary to predict two probabiblities, one for H1N1 and one for seasonal flu vaccine.The
+performance will be evaluated according to the area under the receiver operating characteristic curve
+(ROC AUC) for each of the two target variables. The mean of these two scores will be the overall score, with higher values indicating stronger performance.
+
+In this project we used four modeling methods: Random Forest Classifier, Logistic Regression, Decision Tree Classifier, Catboost classifier and we used a dataset from  drivendata to  find patterns and regularities using data mining technique to predict how likely individuals are to receive their H1N1 and seasonal flu vaccines. Dataset is available under drivendata as Feature data.
 
 ## Conclusions
 
-We tried different methodologies to predict the results regarding the prediction of H1N1 and Seasonal Flu Vaccines such as Random Forest Classifier, Logistic Regression, Decision Tree Classifier, Catboost classifier and we got a best score 0.8632 and rank 49 out of 2692 using Catboost classifier
+We tried different methodologies to predict the results regarding the prediction of H1N1 and Seasonal Flu Vaccines such as Random Forest Classifier, Logistic Regression, Decision Tree Classifier, Catboost classifier and we got a best score 0.8632 using Catboost classifier
 
 ## preprocessing
-Data preprocessing is a data mining technique used to convert raw data into a usable and                efficient format. Cleansing, transformation, and feature engineering are all part of data preprocessing
+Data preprocessing is a data mining technique used to convert raw data into a usable and efficient format. Cleansing, transformation, and feature engineering are all part of data preprocessing
